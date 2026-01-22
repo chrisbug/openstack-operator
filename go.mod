@@ -28,11 +28,10 @@ require (
 	github.com/openstack-k8s-operators/lib-common/modules/test v0.6.1-0.20251230215914-6ba873b49a35
 	github.com/openstack-k8s-operators/manila-operator/api v0.6.1-0.20260111141212-78c13a0c9288
 	github.com/openstack-k8s-operators/mariadb-operator/api v0.6.1-0.20260105160121-f7a8ef85ce8d
-	github.com/openstack-k8s-operators/neutron-operator/api v0.6.1-0.20260107073158-c39a84202319
+	github.com/openstack-k8s-operators/neutron-operator/api v0.0.0-20260115154408-78815c14935f
 	github.com/openstack-k8s-operators/nova-operator/api v0.6.1-0.20260111154931-6b88d580e0d0
 	github.com/openstack-k8s-operators/octavia-operator/api v0.6.1-0.20260109200822-6b023286afe5
 	github.com/openstack-k8s-operators/openstack-baremetal-operator/api v0.6.1-0.20260111155522-06cd1004cb26
-	github.com/openstack-k8s-operators/openstack-operator/api v0.0.0-00010101000000-000000000000
 	github.com/openstack-k8s-operators/ovn-operator/api v0.6.1-0.20260110163153-032238f53c26
 	github.com/openstack-k8s-operators/placement-operator/api v0.6.1-0.20260111155812-e2be9cbcb3f0
 	github.com/openstack-k8s-operators/swift-operator/api v0.6.1-0.20260111160909-81dda9292bf4
@@ -96,6 +95,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/openstack-k8s-operators/lib-common/modules/openstack v0.6.1-0.20251230215914-6ba873b49a35 // indirect
+	github.com/openstack-k8s-operators/neutron-operator v0.0.0-20260115154408-78815c14935f // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_golang v1.22.0 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
@@ -181,3 +181,7 @@ replace k8s.io/code-generator => k8s.io/code-generator v0.31.14 //allow-merging
 replace k8s.io/component-base => k8s.io/component-base v0.31.14 //allow-merging
 
 replace github.com/cert-manager/cmctl/v2 => github.com/cert-manager/cmctl/v2 v2.1.2-0.20241127223932-88edb96860cf //allow-merging
+
+replace github.com/openstack-k8s-operators/neutron-operator => github.com/chrisbug/neutron-operator v0.0.0-20260115154408-78815c14935f
+
+replace github.com/openstack-k8s-operators/neutron-operator/api => github.com/chrisbug/neutron-operator/api v0.0.0-20260115154408-78815c14935f

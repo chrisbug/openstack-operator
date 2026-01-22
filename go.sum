@@ -14,6 +14,10 @@ github.com/cert-manager/cert-manager v1.16.5 h1:XIhKoS4zQV9RHXAkqQW0NLivvoxAnWzb
 github.com/cert-manager/cert-manager v1.16.5/go.mod h1:0DwmIGjMOreiP7/6gAqnjaBRJ+yHCfZ5DP7NNqKV+tY=
 github.com/cespare/xxhash/v2 v2.3.0 h1:UL815xU9SqsFlibzuggzjXhog7bL6oX9BbNZnL2UFvs=
 github.com/cespare/xxhash/v2 v2.3.0/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
+github.com/chrisbug/neutron-operator v0.0.0-20260115154408-78815c14935f h1:c8Id+LusirI6INnPUJIBZ/NV+5T91qt3C8SBnUOrJ+Y=
+github.com/chrisbug/neutron-operator v0.0.0-20260115154408-78815c14935f/go.mod h1:Lj+IrBDZgee/t0C2s/nnAUY1NvhjLQhH9/77VFl0EWw=
+github.com/chrisbug/neutron-operator/api v0.0.0-20260115154408-78815c14935f h1:6T0uNU+M9BFkOzoXGcVunVxFMpibu4wkwS5Vy6B13oY=
+github.com/chrisbug/neutron-operator/api v0.0.0-20260115154408-78815c14935f/go.mod h1:CNJF0ekxqVqrEMLGL/hV489p0RrVoB3alMhjE9cxv1o=
 github.com/cpuguy83/go-md2man/v2 v2.0.6/go.mod h1:oOW0eioCTA6cOiMLiUPZOpcVxMig6NIQQ7OS05n1F4g=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -172,8 +176,6 @@ github.com/openstack-k8s-operators/manila-operator/api v0.6.1-0.20260111141212-7
 github.com/openstack-k8s-operators/manila-operator/api v0.6.1-0.20260111141212-78c13a0c9288/go.mod h1:WIp1bhpYL6KLblLOuxVjXW66O9wCzOyt+3FYQLZZB+Q=
 github.com/openstack-k8s-operators/mariadb-operator/api v0.6.1-0.20260105160121-f7a8ef85ce8d h1:cbQpEHW404M+QBrevqh+MyrtPRUFlHTLmSAHflEth6U=
 github.com/openstack-k8s-operators/mariadb-operator/api v0.6.1-0.20260105160121-f7a8ef85ce8d/go.mod h1:X6W8pIULiWUc6smaTqiNocjxoXaRLgXediwpI/dxD9s=
-github.com/openstack-k8s-operators/neutron-operator/api v0.6.1-0.20260107073158-c39a84202319 h1:7xXiwunQVqblT1NNu4Sn7c9Zq1Db2NQq7nM7RNY65fI=
-github.com/openstack-k8s-operators/neutron-operator/api v0.6.1-0.20260107073158-c39a84202319/go.mod h1:CNJF0ekxqVqrEMLGL/hV489p0RrVoB3alMhjE9cxv1o=
 github.com/openstack-k8s-operators/nova-operator/api v0.6.1-0.20260111154931-6b88d580e0d0 h1:A0AtbOsdz/QARi7uyXilZjc5Jg270ej92J4/1qsrf84=
 github.com/openstack-k8s-operators/nova-operator/api v0.6.1-0.20260111154931-6b88d580e0d0/go.mod h1:bduEbwqDk3e4KrtFhX7Uxt1+6mvYph5XqgjeLKtKdDw=
 github.com/openstack-k8s-operators/octavia-operator/api v0.6.1-0.20260109200822-6b023286afe5 h1:VE+tqDYCdyVRwiOwyrio9SMPZEbJUbVCoPLn9sS1X34=
