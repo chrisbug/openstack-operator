@@ -6,6 +6,8 @@ github.com/cert-manager/cert-manager v1.16.5 h1:XIhKoS4zQV9RHXAkqQW0NLivvoxAnWzb
 github.com/cert-manager/cert-manager v1.16.5/go.mod h1:0DwmIGjMOreiP7/6gAqnjaBRJ+yHCfZ5DP7NNqKV+tY=
 github.com/cespare/xxhash/v2 v2.3.0 h1:UL815xU9SqsFlibzuggzjXhog7bL6oX9BbNZnL2UFvs=
 github.com/cespare/xxhash/v2 v2.3.0/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
+github.com/chrisbug/neutron-operator/api v0.0.0-20260309170543-896312d73fb8 h1:CPJPSucbQi1ywwendx1CnEwhW9IX2vvidiiC5o6deoI=
+github.com/chrisbug/neutron-operator/api v0.0.0-20260309170543-896312d73fb8/go.mod h1:zfZhfIYSFkxiY1f889sgf3yEzi8dZ0u9hsH5gRNDOJk=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc h1:U9qPSI2PIWSS1VwoXQT9A3Wy9MM3WgvqSxFWenqJduM=
@@ -142,8 +144,6 @@ github.com/openstack-k8s-operators/manila-operator/api v0.6.1-0.20260307070618-b
 github.com/openstack-k8s-operators/manila-operator/api v0.6.1-0.20260307070618-b2dcce0324ee/go.mod h1:dRmCGqDthR5WEKOs1mbSogMKnFUr6iSESM3tP2rLv7Y=
 github.com/openstack-k8s-operators/mariadb-operator/api v0.6.1-0.20260307080955-79e845a223d3 h1:Ls4PqPmoI1IZNicuth4ofTxlik6Y7RgFYHuGUR4Rxr8=
 github.com/openstack-k8s-operators/mariadb-operator/api v0.6.1-0.20260307080955-79e845a223d3/go.mod h1:mRxZLKE/NUwWcjEbIxgauk5D5sIdhQpJK0vzTdnfOi8=
-github.com/openstack-k8s-operators/neutron-operator/api v0.6.1-0.20260302115939-a696e17a0a2f h1:QaN6T4Uu0DgnCuCLQRZjNljLImmcETNbTf35SS1z8+4=
-github.com/openstack-k8s-operators/neutron-operator/api v0.6.1-0.20260302115939-a696e17a0a2f/go.mod h1:zfZhfIYSFkxiY1f889sgf3yEzi8dZ0u9hsH5gRNDOJk=
 github.com/openstack-k8s-operators/nova-operator/api v0.6.1-0.20260306120535-320f4092f4db h1:mAP7Cu2+xyy4ySysVkLCz60BDOvs7zYt+KeAK8kgF1U=
 github.com/openstack-k8s-operators/nova-operator/api v0.6.1-0.20260306120535-320f4092f4db/go.mod h1:jc2c9B9vPB8eNC64y+wbp1NWfHGf3kaUpqDuolejVDM=
 github.com/openstack-k8s-operators/octavia-operator/api v0.6.1-0.20260304073356-83422cbfef70 h1:jAHFjX1vbHd1ISrZ7Fyo4aW3GAf5Ou6ylZ31knuRNYY=
